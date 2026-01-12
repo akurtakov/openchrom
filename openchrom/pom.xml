@@ -223,6 +223,21 @@
 						<skipArchive>true</skipArchive>
 					</configuration>
 				</plugin>
+				<plugin>
+					<groupId>org.eclipse.tycho.extras</groupId>
+					<artifactId>tycho-version-bump-plugin</artifactId>
+					<version>${tycho.version}</version>
+					<executions>
+						<execution>
+							<id>update-target</id>
+							<configuration>
+								<updateEmptyVersion>false</updateEmptyVersion>
+								<mavenRulesUri>
+									${project.basedir}/update-rules.xml</mavenRulesUri>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
