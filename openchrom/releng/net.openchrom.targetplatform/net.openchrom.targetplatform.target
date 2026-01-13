@@ -87,7 +87,7 @@
 			<dependency>
 				<groupId>com.fasterxml.woodstox</groupId>
 				<artifactId>woodstox-core</artifactId>
-				<version>6.7.0</version>
+				<version>7.1.1</version>
 				<type>jar</type>
 			</dependency>
 		</dependencies>
@@ -97,7 +97,7 @@
 			<dependency>
 				<groupId>dk.brics</groupId>
 				<artifactId>automaton</artifactId>
-				<version>1.12-1</version>
+				<version>1.12-4</version>
 				<type>jar</type>
 			</dependency>
 		</dependencies>
@@ -129,7 +129,7 @@
 			<dependency>
 				<groupId>com.google.re2j</groupId>
 				<artifactId>re2j</artifactId>
-				<version>1.7</version>
+				<version>1.8</version>
 				<type>jar</type>
 			</dependency>
 		</dependencies>
@@ -159,7 +159,7 @@
 			<dependency>
 				<groupId>uk.ac.ebi.beam</groupId>
 				<artifactId>beam-core</artifactId>
-				<version>1.3.5</version>
+				<version>1.3.10</version>
 				<type>jar</type>
 			</dependency>
 		</dependencies>
