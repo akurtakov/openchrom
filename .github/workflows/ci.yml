@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        java-version: ['21', '25']  
+        java: ['21', '25']  
 
     container:
       image: maven:3.9-eclipse-temurin-${{ matrix.java }}

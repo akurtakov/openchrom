@@ -22,6 +22,7 @@ import net.openchrom.swtchart.extension.export.vectorgraphics.model.PageUnit;
 public class PreferenceSupplier extends AbstractPreferenceSupplier {
 
 	public static final String P_PAGE_SIZE_OPTION = "pageSizeOption";
+	
 	public static final String DEF_PAGE_SIZE_OPTION = PageSizeOption.FULL_LANDSCAPE.name();
 	public static final String P_PAGE_UNIT = "pageUnit";
 	public static final String DEF_PAGE_UNIT = PageUnit.MM.name();
